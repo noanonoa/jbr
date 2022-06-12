@@ -73,8 +73,29 @@ main {
   top: var(--navbar-height);
 }
 
-main img {
+main > img {
   width: 100%;
   height: auto;
   opacity: .5;
+}
+
+main div {
+  width: 90%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1 {
+  margin: 0;
+}
+
+h1 > img {
+  width: 100%;
+}
+
+main div > p {
+  text-align: center;
+  margin-bottom: 25px;
 }
