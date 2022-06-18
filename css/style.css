@@ -57,7 +57,7 @@ nav > ul {
   align-items: flex-end;
   top: var(--navbar-height);
   right: 0;
-  width: 30%;
+  width: 200px;
   visibility: hidden;
   opacity: 0;
   transition: visibility 0.2s ease-in, opacity 0.2s ease-in;
