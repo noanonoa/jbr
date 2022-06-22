@@ -162,3 +162,60 @@ article h3 {
   text-align: center;
   padding: 20px 0;
 }
+
+footer {
+  font-size: .8rem;
+  position: relative;
+  padding: 25px 0;
+  top: var(--navbar-height);
+  color: white;
+  background-color: black;
+}
+
+footer div.image-wrapper {
+  width: 300px;
+  margin: 0 auto 20px;
+}
+
+footer > p {
+  color: #707070;
+  font-weight: 100;
+  font-size: .7rem;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+}
+
+.image-wrapper > img {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.container div {
+  width: 33%;
+}
+
+.container div > div {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.container div > div p {
+  color: white;
+  padding: 10px 0;
+}
+
+.container div > div p a {
+  color: inherit;
+}
+
+.container div > div p a:hover {
+  border-bottom: 1px solid white;
+}
