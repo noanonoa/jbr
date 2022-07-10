@@ -69,7 +69,7 @@ nav ul.show {
   opacity: 1; 
 }
 
-ul li {
+nav ul li {
   height: 50px;
   line-height: 50px;
   margin: 10px;
@@ -161,6 +161,34 @@ article div.cover img {
 article h3 {
   text-align: center;
   padding: 20px 0;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form li {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+form input,
+form textarea {
+  padding: 5px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+  border-radius: 5px;
+}
+
+form textarea {
+  resize: none;
+}
+
+form button {
+  width: 100%;
+  height: 3rem;
 }
 
 footer {
